@@ -6,4 +6,4 @@
 hostname = %APPEND% file.notion.so
 
 [Header Rewrite]
-http-response ^https://file.notion.so header-replace-regex "filename=\"[^\/%]+(\/|%2F)" "filename=\""
+http-response ^https?://file\.notion\.so/ header-replace-regex Content-Disposition "filename=\"(.*%2F)(.+)\"" "filename=\"$2\""
