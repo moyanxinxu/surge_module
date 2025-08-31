@@ -7,3 +7,4 @@ hostname = %APPEND% www.notion.so
 
 [Body Rewrite]
 http-response www.notion.so/api/v3/isEmailEducation 'false' 'true'
+http-response www.notion.so/api/v3/getEmailDomainSettings 'false' 'true'
