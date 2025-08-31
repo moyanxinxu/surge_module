@@ -1,0 +1,9 @@
+#!name=notion_download
+#!desc=notion_download
+#!category=moyanxinxu
+
+[MITM]
+hostname = %APPEND% file.notion.so
+
+[Header Rewrite]
+http-response ^https?:\/\/file\.notion\.so\/f\/.*\.pdf "Content-Disposition: filename=\"[^\/%]+(\/|%2F)" "Content-Disposition: filename=\""
