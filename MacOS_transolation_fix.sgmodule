@@ -1,0 +1,6 @@
+#!name=MacOS_transolation_fix
+#!desc=MacOS_transolation_fix
+#!category=moyanxinxu
+
+[General]
+skip-proxy = seed-sequoia.siri.apple.com, sequoia.apple.com
