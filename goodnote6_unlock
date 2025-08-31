@@ -1,5 +1,6 @@
 #!name=goodnote6_unlock
 #!desc=goodnote6_unlock
+#!category=moyanxinxu
 
 [MITM]
 hostname = %APPEND% isi.csan.goodnotes.com.*, isi.csan.goodnotes.com
