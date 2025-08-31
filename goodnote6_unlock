@@ -1,0 +1,9 @@
+#!name=goodnote6_unlock
+#!desc=goodnote6_unlock
+
+[MITM]
+hostname = %APPEND% isi.csan.goodnotes.com.*, isi.csan.goodnotes.com
+
+[URL Rewrite]
+^https:\/\/isi\.csan\.goodnotes.*\/v1\/subscribers\/[a-f0-9\-]{36}$ https://goodenotes6.lovebabyforever.workers.dev/ header
+
