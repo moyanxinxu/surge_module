@@ -1,0 +1,9 @@
+#!name=notion_edu
+#!desc=notion_edu
+#!category=moyanxinxu
+
+[MITM]
+hostname = %APPEND% www.notion.so
+
+[Body Rewrite]
+http-response www.notion.so/api/v3/isEmailEducation 'false' 'true'
