@@ -1,0 +1,6 @@
+#!name=自用常用规则
+#!desc=自用常用规则
+#!category=moyanxinxu
+
+[Rule]
+PROCESS-NAME,Music,DIRECT
